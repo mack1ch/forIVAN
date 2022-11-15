@@ -1,0 +1,13 @@
+@import 'blocks_header/grid.css';
+@import 'blocks_header/page.css';
+@import 'blocks_header/header.css';
+@import 'blocks_header/logo.css';
+@import 'blocks_header/menu.css';
+@import 'blocks_header/main.css';
+@import 'blocks_main/textes.css';
+@import 'blocks_main/images.css';
+
+body {
+    font-family: 'Raleway ', sans-serif;
+    font-style: normal;
+}
