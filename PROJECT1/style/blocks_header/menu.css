@@ -57,8 +57,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    font-size: 20px;
-    font-style: normal;
+    font-weight: 600;
     font-family: 'Raleway', sans-serif;
     color: #5222D0;
 }
@@ -67,6 +66,7 @@
     .menu__list {
         display: none;
         font-style: normal;
+        font-weight: 600;
         row-gap: 8px;
         padding-top: 12px;
         padding-bottom: 22px;
@@ -93,10 +93,26 @@ a{
 /* Item */
 
 .menu__item{
-    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
 }
-
+@media (min-width: 320px){
+    .menu__item{
+        font-weight: 600;
+        font-size: 14px;
+        font-style: normal;
+    }
+}
+@media (min-width: 738px) {
+    .menu__item{
+        font-weight: 600;
+        font-size: 20px;
+        font-style: normal;
+    }
+}
 /* Link */
 
 .menu__link {
